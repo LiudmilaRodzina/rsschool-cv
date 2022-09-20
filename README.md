@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://liudmilarodzina.github.io/rsschool-cv/
