@@ -1,3 +1,147 @@
+/*---------------------------------------------------------------------------------------------
+- COLORS:
+
+#fdfdfd
+#e0e0e0
+#c0c0c0
+#464849
+#8b827c
+#862e9c
+
+- Font sizes (px) 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px): 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+-------------------------------------------------------------------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 body {
-  background-color: #fff;
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #464849;
+}
+.container {
+  max-width: 120rem;
+  padding: 3.2rem;
+  margin: 0 auto;
+  border: 1px solid #8b827c;
+  font-size: 1.8rem;
+}
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  margin-bottom: 4.8rem;
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+}
+.heading-primary {
+  font-size: 3.6rem;
+  line-height: 1.05;
+}
+.heading-secondary {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.heading-tertiary {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.main-nav,
+.footer-container {
+  background-color: #e0e0e0;
+  padding: 4rem 2rem;
+}
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3.2rem;
+  list-style: none;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #862e9c;
+}
+.header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 3.6rem;
+}
+.avatar {
+  padding: 3rem;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 34rem;
+  height: 34rem;
+  opacity: 0.8;
+}
+.content-left-column,
+.content-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 1rem;
+}
+.content-left-column {
+  background-color: #fdfdfd;
+}
+.content-right-column {
+  background-color: #e0e0e0;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+}
+.rs-logo {
+  width: 6rem;
+}
+.gh-logo {
+  width: 3rem;
+}
+.year-text {
+  font-size: 1.4rem;
 }
