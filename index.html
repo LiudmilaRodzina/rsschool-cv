@@ -1,10 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/SUNDEW.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV Liudmila Rodzina</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li>
+              <a class="main-nav-link" href="#contact-info"
+                >Contact information</a
+              >
+            </li>
+            <li><a class="main-nav-link" href="#skills">Skills</a></li>
+            <li>
+              <a class="main-nav-link" href="#experience">Job experience</a>
+            </li>
+
+            <li>
+              <a class="main-nav-link" href="#languages">Foreign languages</a>
+            </li>
+            <li><a class="main-nav-link" href="#education">Education</a></li>
+            <li><a class="main-nav-link" href="#about-me">About me</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="content-header grid grid--2-cols">
+          <section class="avatar">
+            <img src="img/SUNDEW.jpg" alt="photo" />
+          </section>
+          <div class="header-info">
+            <section class="title">
+              <h1 class="heading-primary">Liudmila Rodzina</h1>
+              <h2 class="heading-secondary">Front-end developer</h2>
+            </section>
+            <section class="contact-info">
+              <h3 class="heading-tertiary" id="contact-info">
+                Contact information:
+              </h3>
+              <ul class="list">
+                <li class="list-item">Location: Minsk, Belarus</li>
+                <li class="list-item">Phone: +375 44 000 00 00</li>
+                <li class="list-item">E-mail: mail_mail@gmail.com</li>
+                <li class="list-item">Telegram: @telegram</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="content-main grid grid--2-cols">
+          <div class="content-left-column">
+            <section class="foreign-languages">
+              <h3 class="heading-tertiary" id="languages">
+                Foreign languages:
+              </h3>
+              <ul class="list">
+                <li class="list-item">&mdash; English: C1 (Advanced)</li>
+                <li class="list-item">&mdash; German: A2 (Elementary)</li>
+                <li class="list-item">&mdash; Russian: Native</li>
+              </ul>
+            </section>
+            <section class="education">
+              <h3 class="heading-tertiary" id="education">Education:</h3>
+              <p class="university">
+                Belarus State Economic University<br />(Hospitality management)
+              </p>
+            </section>
+            <section class="introduction">
+              <h3 class="heading-tertiary" id="about-me">About me:</h3>
+              <p class="about-me">
+                A team-player and a hard-worker. Eager to learn and never give
+                up until I finish something. I get on well with all kinds of
+                people. I like everything I do to be well-organized.
+              </p>
+            </section>
+          </div>
+          <div class="content-right-column">
+            <section class="skills">
+              <h3 class="heading-tertiary" id="skills">Skills:</h3>
+              <ul class="list">
+                <li class="list-item">&mdash; HTML&CSS</li>
+                <li class="list-item">&mdash; JavaScript (basics)</li>
+                <li class="list-item">&mdash; Python (basics)</li>
+                <li class="list-item">&mdash; Git, GitHub</li>
+              </ul>
+            </section>
+
+            <section class="job-experience">
+              <h3 class="heading-tertiary" id="experience">Job experience:</h3>
+              <ul class="list">
+                <li class="list-item">
+                  2009 - 2014 - Hospitality Industry (waitress, restaurant
+                  manager), Cruise Line, USA
+                </li>
+                <li class="list-item">
+                  2015 - 2019 - Electronics Service Center (customer service,
+                  claims specialist), Minsk, Belarus
+                </li>
+                <li class="list-item">
+                  2020 - 2022 - Electronic Data Intercharge Provider (customer
+                  care, sales specialist), Minsk, Belarus
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer-container">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img
+              class="rs-logo"
+              src="img/rs_school_js.svg"
+              alt="RS School logo"
+          /></a>
+          <a href="https://github.com/LiudmilaRodzina" target="_blank"
+            ><img class="gh-logo" src="img/github.svg" alt="GitHub logo"
+          /></a>
+          <p class="year-text">&copy; 2022</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
